@@ -23,7 +23,7 @@ NOTE:
 
  **--->** Created a free-style job and added git repository (https://github.com/sumanthtony/one_repo), and in **build steps** selected **invote top level maven targets** and given the command **mvn clean package** : Just by giving this command it will perform **Unit Testing, Compilation, get Packages** **(WAR FILE)**
 
- NOTE: SINCE I HAVE ALREADY INSTALLED MAVEN PACKAGE IN THE SERVER DIRECTLY, SO I HAVE GIVEN **CLEAN PACKAGE** IF WE DIDN'T WANT TO INSTALL MAVEN IN THE SERVER AND NEED TO PERFORM IN JENKINS PAGE WE CAN CONFIGURE **MANAGEJENKINS-TOOLS** SEARCH FOR MAVEN AND COMPLETE THE STEPS AND USE IN JOB BY GIVING **clean package**
+ NOTE: SINCE I HAVE ALREADY INSTALLED MAVEN PACKAGE IN THE SERVER DIRECTLY, SO I HAVE GIVEN **mvn clean package** IF WE DIDN'T WANT TO INSTALL MAVEN IN THE SERVER AND NEED TO PERFORM IN JENKINS PAGE WE CAN CONFIGURE **MANAGEJENKINS-TOOLS** SEARCH FOR MAVEN AND COMPLETE THE STEPS AND USE IN JOB BY GIVING **clean package**
 
  <img width="664" height="347" alt="MVN dependency" src="https://github.com/user-attachments/assets/fb50f6d3-49b3-4e50-a272-8ba9a234dec0" />
 
